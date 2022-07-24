@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+
+}
+
+html,body{
+  height: 100%;
+}
+body{
+  background-image: url(../live-class-project-2/assets/back-image.png);
+  margin-bottom: 0;
+  position: fixed;
+
+  
+  
+  
+  
+}
+.container {
+  height: 110vh;
+  background: rgba(10, 29, 84, 0.6);
+
+  
+
+}
+.container > section {
+ 
+  padding: 40px 50px;
+}
+li {
+  list-style: none;
+  color: #ffc233;
+  font-size: 15px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar > div:nth-child(1) > img{
+  width: 130px;
+  
+  
+
+}
+.list
+{
+
+  display: flex;
+  justify-content: space-between;
+  
+  width:500px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.button-small{
+  width: 130px;
+  height: 50px;
+  background-color: #ff505f;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+.hero {
+
+  
+}
+
+
+.hero-heading {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-stretch: condensed;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 700;
+  color: #ffc233;
+  line-height: 120px;
+  letter-spacing: 0.02cm;
+  padding-bottom: 50px;
+}
+.button-large {
+  height: 80px;
+  width: 250px;
+  background-color: #ff505f;
+  border: none;
+  display: block;
+  color: white;
+  font-size: 25px;
+  align-items: center;
+  margin: auto;
+  
+}
+.bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+.bottom > div > img {
+  width: 150px;
+}
