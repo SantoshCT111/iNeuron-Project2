@@ -10,7 +10,7 @@ html,body{
   height: 100%;
 }
 body{
-  background-image: url(../live-class-project-2/assets/back-image.png);
+  background-image: url(./back-image.png);
   margin-bottom: 0;
   position: fixed;
 
